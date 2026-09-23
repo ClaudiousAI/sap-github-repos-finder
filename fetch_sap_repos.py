@@ -40,29 +40,29 @@ logger = logging.getLogger(__name__)
 GITHUB_API_BASE = "https://api.github.com"
 SEARCH_QUERIES = [
     # ABAP
-    "sap abap in:name,description,readme fork:false sort:stars",
-    "topic:abap fork:false sort:stars",
+    "sap abap in:name,description fork:false sort:stars",
+    "topic:abap sap fork:false sort:stars",
     # OData
-    "sap odata in:name,description,readme fork:false sort:stars",
+    "sap odata in:name,description fork:false sort:stars",
     "topic:odata sap fork:false sort:stars",
     # Fiori
-    "sap fiori in:name,description,readme fork:false sort:stars",
-    # UI5 / OpenUI5
-    "sap ui5 OR sapui5 OR openui5 in:name,description,readme fork:false sort:stars",
-    "topic:sapui5 fork:false sort:stars",
+    "sap fiori in:name,description fork:false sort:stars",
+    # UI5 / OpenUI5 - more specific, require sap context
+    "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars",
+    "topic:sapui5 sap fork:false sort:stars",
     # Workflow
-    "sap workflow in:name,description,readme fork:false sort:stars",
+    "sap workflow in:name,description fork:false sort:stars",
     # RAP
-    'sap rap OR "restful abap" in:name,description,readme fork:false sort:stars',
+    'sap rap OR "restful abap" in:name,description fork:false sort:stars',
     # CAP
-    'sap cap OR "cloud application programming model" in:name,description,readme fork:false sort:stars',
+    'sap cap OR "cloud application programming model" sap in:name,description fork:false sort:stars',
     # S/4HANA Conversion
-    '"ecc" "s4hana" conversion OR transformation in:name,description,readme fork:false sort:stars',
-    '"s/4hana" migration OR conversion sap in:name,description,readme fork:false sort:stars',
+    '"ecc" "s4hana" conversion OR transformation sap in:name,description fork:false sort:stars',
+    '"s/4hana" migration OR conversion sap in:name,description fork:false sort:stars',
     # Generative AI
-    'sap "generative ai" OR genai in:name,description,readme fork:false sort:stars',
+    'sap "generative ai" OR sap genai in:name,description fork:false sort:stars',
     # AI Automation
-    'sap ai automation OR "intelligent automation" in:name,description,readme fork:false sort:stars',
+    'sap ai automation OR sap "intelligent automation" in:name,description fork:false sort:stars',
 ]
 
 # SAP area keywords for classification
@@ -561,10 +561,43 @@ def process_repositories(raw_repos: List[Dict], readmes: Dict[str, Optional[str]
     return processed
 
 def rank_repositories(repos: List[Repository]) -> List[Repository]:
-    """Rank repositories by stars (desc), then by updated_at (desc)."""
+    """Rank repositories by stars (desc), then by updated_at (desc).
+    Boost official SAP orgs, penalize known non-SAP popular orgs.
+    """
+    # Known non-SAP orgs that appear in results due to keyword matches in massive READMEs
+    NON_SAP_ORGS = {
+        "sindresorhus", "axios", "dbeaver", "akullpp", "goabstract",
+        "facebook", "google", "microsoft", "vercel", "nestjs",
+        "angular", "vuejs", "reactjs", "webpack", "babel",
+        "tensorflow", "pytorch", "keras", "scikit-learn",
+        "ansible", "kubernetes", "docker", "hashicorp",
+        "typeorm", "open-guides", "formulahendry", "genesis-embodied-ai",
+        "openapitools", "alexpate", "timqian",
+        "dujltqzv", "beekeeper-studio", "mikeroyal", "brettwooldridge",
+        "livekit", "t8y2", "runacapital", "simplifyjobs",
+        "ileriayo", "oauth2-proxy", "analysis-tools-dev", "oxnr",
+        "qgis", "donnemartin", "alexandresanlim", "semantica-agi",
+        "vanhauser-thc", "hxu296", "pingcap", "xo", "flyway",
+        "patrickjs", "msworkers",
+        "awslabs", "facebookresearch",
+    }
+
     def sort_key(r: Repository):
         updated = datetime.fromisoformat(r.updated_at.replace("Z", "+00:00"))
-        return (-r.stargazers_count, -updated.timestamp())
+        owner = r.full_name.split("/")[0].lower()
+
+        # Base score from stars
+        score = r.stargazers_count
+
+        # Boost official SAP orgs
+        if owner.upper() in {o.upper() for o in SAP_OFFICIAL_ORGS}:
+            score *= 10  # 10x boost
+
+        # Penalize known non-SAP orgs
+        if owner in NON_SAP_ORGS:
+            score = score // 100  # Heavy penalty
+
+        return (-score, -updated.timestamp())
 
     return sorted(repos, key=sort_key)
 
@@ -679,9 +712,12 @@ def main():
     ranked = rank_repositories(relevant)
     top25 = ranked[:TOP_N]
 
-    # Output
-    print_table(top25)
+    # Output - export JSON first (before table print which may have encoding issues)
     export_json(top25)
+    try:
+        print_table(top25)
+    except UnicodeEncodeError:
+        logger.warning("Console encoding issue - skipping table print (JSON saved successfully)")
 
     # Summary stats
     area_counts = {}

@@ -1,0 +1,1353 @@
+{
+  "generated_at": "2026-09-23T11:54:10.156140Z",
+  "repos": [
+    {
+      "full_name": "SAP/macOS-enterprise-privileges",
+      "html_url": "https://github.com/SAP/macOS-enterprise-privileges",
+      "description": "This application gives Mac users in enterprise environments control over the administration of their machines by elevating their access level to administrator privileges on macOS. Users can set a timeframe in the application's settings to perform specific tasks, such as installing or uninstalling applications.",
+      "stargazers_count": 2066,
+      "forks_count": 182,
+      "open_issues_count": 1,
+      "language": "Objective-C",
+      "topics": [
+        "macos",
+        "open-source",
+        "privileges"
+      ],
+      "updated_at": "2026-09-22T04:05:30Z",
+      "primary_area": "CAP",
+      "what_it_offers": "Project for <img src=\"https://github.com/SAP/macOS-enterprise-privileges/blob/main/readme_images/banner.png\" width=\"879\"><br/> <br/>",
+      "skills": [
+        "CAP",
+        "CDS",
+        "Java",
+        "MTA",
+        "Node.js",
+        "RAG",
+        "Service Definitions"
+      ],
+      "purpose": "Use this to <img src=\"https://github.com/SAP/macOS-enterprise-privileges/blob/main/readme_images/banner.png\" width=\"879\"><br/> <br/>",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/styleguides",
+      "html_url": "https://github.com/SAP/styleguides",
+      "description": "This repository provides SAP style guides for coding and coding-related topics.",
+      "stargazers_count": 2012,
+      "forks_count": 504,
+      "open_issues_count": 79,
+      "language": "Markdown",
+      "topics": [
+        "abap"
+      ],
+      "updated_at": "2026-09-20T16:33:09Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Tutorial for [![REUSE status](https://api.reuse.software/badge/github.com/SAP/styleguides)](https://api.reuse.software/info/github.co",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "CDS",
+        "RAP",
+        "S/4HANA"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP/styleguides)](https://api.reuse.software/info/github.co",
+      "evidence": {
+        "matched_topics": [
+          "abap"
+        ],
+        "matched_keywords": [
+          "ABAP:abap"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "topic:abap sap fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/abap-cheat-sheets",
+      "html_url": "https://github.com/SAP-samples/abap-cheat-sheets",
+      "description": "Explore ABAP syntax in a nutshell supported by executable demo examples.",
+      "stargazers_count": 1810,
+      "forks_count": 492,
+      "open_issues_count": 1,
+      "language": "ABAP",
+      "topics": [
+        "abap",
+        "abap-cds",
+        "abap-cloud",
+        "abap-development",
+        "abap-environment",
+        "abap-oo",
+        "cheat-sheets",
+        "f1",
+        "rap",
+        "sample",
+        "sample-code"
+      ],
+      "updated_at": "2026-09-23T09:41:01Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Project for <br /> <div align=\"center\"> <a href=\"https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.html\">",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "BTP",
+        "CDS",
+        "Go",
+        "RAG",
+        "RAP"
+      ],
+      "purpose": "Use this to <br /> <div align=\"center\"> <a href=\"https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.html\">",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abap-cds",
+          "abap-cloud",
+          "abap-development",
+          "abap-environment",
+          "abap-oo",
+          "rap"
+        ],
+        "matched_keywords": [
+          "ABAP:abap",
+          "ABAP:rap",
+          "ABAP:cds",
+          "RAP:rap",
+          "CAP:cds"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/jenkins-library",
+      "html_url": "https://github.com/SAP/jenkins-library",
+      "description": "Jenkins shared library for Continuous Delivery pipelines.",
+      "stargazers_count": 821,
+      "forks_count": 635,
+      "open_issues_count": 33,
+      "language": "Go",
+      "topics": [
+        "ci-cd",
+        "cli",
+        "golang",
+        "jenkins",
+        "open-source"
+      ],
+      "updated_at": "2026-09-21T11:47:54Z",
+      "primary_area": "S4 Conversion",
+      "what_it_offers": "Project for **This repository will be archived on December 31, 2026.** - This repository will no longer be actively maintained after",
+      "skills": [
+        "ATC",
+        "CI/CD",
+        "Code Inspector",
+        "Go",
+        "Migration",
+        "RAG",
+        "S/4HANA",
+        "Simplification"
+      ],
+      "purpose": "Use this to **This repository will be archived on December 31, 2026.** - This repository will no longer be actively maintained after",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/abap-cleaner",
+      "html_url": "https://github.com/SAP/abap-cleaner",
+      "description": "ABAP cleaner applies 100+ cleanup rules to ABAP code at a single keystroke",
+      "stargazers_count": 664,
+      "forks_count": 75,
+      "open_issues_count": 122,
+      "language": "Java",
+      "topics": [
+        "abap",
+        "adt",
+        "clean-code",
+        "formatter",
+        "pretty-printer"
+      ],
+      "updated_at": "2026-09-22T09:53:09Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Project for [![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-cleaner)](https://api.reuse.software/info/github.c",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "CDS",
+        "Go",
+        "RAP"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-cleaner)](https://api.reuse.software/info/github.c",
+      "evidence": {
+        "matched_topics": [
+          "abap"
+        ],
+        "matched_keywords": [
+          "ABAP:abap"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/macOS-icon-generator",
+      "html_url": "https://github.com/SAP/macOS-icon-generator",
+      "description": "Icons for macOS is the easiest way to create customized app icons in PNG format for your company’s internal app store. No graphic skills needed.",
+      "stargazers_count": 639,
+      "forks_count": 41,
+      "open_issues_count": 0,
+      "language": "Objective-C",
+      "topics": [
+        "customization",
+        "icons",
+        "macos",
+        "open-source",
+        "png"
+      ],
+      "updated_at": "2026-09-21T12:09:37Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Project for <img src=\"https://github.com/SAP/macOS-icon-generator/blob/main/readme_images/icons_banner_github.png\" width=\"879\"><br/>",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "CDS",
+        "RAG",
+        "RAP"
+      ],
+      "purpose": "Use this to <img src=\"https://github.com/SAP/macOS-icon-generator/blob/main/readme_images/icons_banner_github.png\" width=\"879\"><br/>",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [
+          "ABAP:rap",
+          "RAP:rap"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/abap-platform-rap-opensap",
+      "html_url": "https://github.com/SAP-samples/abap-platform-rap-opensap",
+      "description": "Samples for the openSAP course \"Building Apps with the ABAP RESTful Application Programming model (RAP).\"",
+      "stargazers_count": 606,
+      "forks_count": 279,
+      "open_issues_count": 13,
+      "language": null,
+      "topics": [
+        "abap",
+        "abap-restful",
+        "exercises",
+        "opensap",
+        "rap",
+        "sample"
+      ],
+      "updated_at": "2026-09-22T21:02:01Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-rap-opensap)](https://api.reuse.s",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "CDS",
+        "Go",
+        "RAP"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-rap-opensap)](https://api.reuse.s",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abap-restful",
+          "opensap",
+          "rap"
+        ],
+        "matched_keywords": [
+          "ABAP:abap",
+          "ABAP:abap-restful",
+          "ABAP:rap",
+          "RAP:rap",
+          "RAP:restful application programming"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/code-pal-for-abap",
+      "html_url": "https://github.com/SAP/code-pal-for-abap",
+      "description": "code pal for ABAP is a highly configurable engine, fully integrated into the ABAP development framework ensuring Cloud’s built-in quality.",
+      "stargazers_count": 436,
+      "forks_count": 77,
+      "open_issues_count": 34,
+      "language": "ABAP",
+      "topics": [
+        "abap",
+        "abapgit",
+        "atc",
+        "check",
+        "clean-code",
+        "code-inspector",
+        "inspector",
+        "open-source",
+        "quality",
+        "sap"
+      ],
+      "updated_at": "2026-09-22T09:55:00Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Library for [![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/SAP/co",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "CDS",
+        "RAP",
+        "S/4HANA"
+      ],
+      "purpose": "Use this to [![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/SAP/co",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abapgit",
+          "sap"
+        ],
+        "matched_keywords": [
+          "ABAP:abap",
+          "ABAP:abapgit"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/curated-resources-for-domain-driven-design",
+      "html_url": "https://github.com/SAP/curated-resources-for-domain-driven-design",
+      "description": "You want to get started with Domain-Driven Design or are looking for advanced learning resources in this topic? Then this collection of curated learning resources is a good place to check out. ",
+      "stargazers_count": 402,
+      "forks_count": 50,
+      "open_issues_count": 1,
+      "language": null,
+      "topics": [
+        "ddd",
+        "ddd-learning",
+        "domain-driven-design"
+      ],
+      "updated_at": "2026-09-20T10:14:21Z",
+      "primary_area": "S4 Conversion",
+      "what_it_offers": "Tutorial for [![REUSE status](https://api.reuse.software/badge/github.com/SAP/curated-resources-for-domain-driven-design)](https://ap",
+      "skills": [
+        "ATC",
+        "Code Inspector",
+        "Go",
+        "Migration",
+        "RAG",
+        "S/4HANA",
+        "Simplification"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP/curated-resources-for-domain-driven-design)](https://ap",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/abap-platform-refscen-flight",
+      "html_url": "https://github.com/SAP-samples/abap-platform-refscen-flight",
+      "description": "SFlight is back! This is the Flight Reference Scenario for the ABAP RESTful Application Programming Model (RAP).",
+      "stargazers_count": 347,
+      "forks_count": 135,
+      "open_issues_count": 3,
+      "language": null,
+      "topics": [
+        "abap",
+        "abap-environment",
+        "abap-restful",
+        "flight-reference-scenario",
+        "open-source",
+        "rap",
+        "sample",
+        "sample-code",
+        "sap-cloud-platform"
+      ],
+      "updated_at": "2026-09-15T14:59:17Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-refscen-flight)](https://api.reus",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "BTP",
+        "CDS",
+        "Fiori",
+        "RAP",
+        "S/4HANA",
+        "SAP HANA",
+        "UI5"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-refscen-flight)](https://api.reus",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abap-environment",
+          "abap-restful",
+          "rap",
+          "sap-cloud-platform"
+        ],
+        "matched_keywords": [
+          "ABAP:abap",
+          "ABAP:abap-restful",
+          "ABAP:rap",
+          "RAP:rap",
+          "RAP:restful application programming"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/abap-platform-rap-workshops",
+      "html_url": "https://github.com/SAP-samples/abap-platform-rap-workshops",
+      "description": "This repository contains materials for workshops about the ABAP RESTful Application Programming Model (RAP).",
+      "stargazers_count": 343,
+      "forks_count": 122,
+      "open_issues_count": 17,
+      "language": "ABAP",
+      "topics": [
+        "abap",
+        "abap-restful",
+        "rap",
+        "rap-workshop",
+        "sample",
+        "sample-code",
+        "workshop"
+      ],
+      "updated_at": "2026-09-16T18:34:15Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-rap-workshops)](https://api.reuse",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "BTP",
+        "CAP",
+        "CDS",
+        "Fiori",
+        "Go",
+        "Joule",
+        "RAP",
+        "S/4HANA",
+        "SAP Build"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-rap-workshops)](https://api.reuse",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abap-restful",
+          "rap",
+          "rap-workshop"
+        ],
+        "matched_keywords": [
+          "ABAP:abap",
+          "ABAP:abap-restful",
+          "ABAP:rap",
+          "RAP:rap",
+          "RAP:restful application programming"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/fiori-elements-feature-showcase",
+      "html_url": "https://github.com/SAP-samples/fiori-elements-feature-showcase",
+      "description": "Sample application that demonstrates and documents a broad variety of features of SAP Fiori elements for OData V4. Developers can play around with the new features and learn how to implement them.",
+      "stargazers_count": 327,
+      "forks_count": 104,
+      "open_issues_count": 6,
+      "language": "CAP CDS",
+      "topics": [
+        "odatav4",
+        "sample",
+        "sample-code",
+        "sap-cap",
+        "sap-fiori",
+        "sap-fiori-elements"
+      ],
+      "updated_at": "2026-09-15T14:57:22Z",
+      "primary_area": "Fiori",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/fiori-elements-feature-showcase)](https://api.r",
+      "skills": [
+        "Annotations",
+        "CAP",
+        "CDS",
+        "Fiori",
+        "Fiori Elements",
+        "Fiori Launchpad",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Node.js",
+        "OData V4",
+        "RAG"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/fiori-elements-feature-showcase)](https://api.r",
+      "evidence": {
+        "matched_topics": [
+          "odatav4",
+          "sap-cap",
+          "sap-fiori",
+          "sap-fiori-elements"
+        ],
+        "matched_keywords": [
+          "OData:odata",
+          "OData:odata v4",
+          "Fiori:fiori",
+          "Fiori:fiori elements",
+          "CAP:cap"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap odata in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/node-hdb",
+      "html_url": "https://github.com/SAP/node-hdb",
+      "description": "SAP HANA Database Client for Node",
+      "stargazers_count": 322,
+      "forks_count": 99,
+      "open_issues_count": 43,
+      "language": "JavaScript",
+      "topics": [],
+      "updated_at": "2026-09-09T08:54:25Z",
+      "primary_area": "S4 Conversion",
+      "what_it_offers": "Library for hdb - Pure JavaScript SAP HANA Database Client ============================================== [![Version](https://img.sh",
+      "skills": [
+        "ATC",
+        "Cloud Foundry",
+        "Code Inspector",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Migration",
+        "Node.js",
+        "RAG",
+        "S/4HANA",
+        "SAP HANA",
+        "Simplification"
+      ],
+      "purpose": "Use this to hdb - Pure JavaScript SAP HANA Database Client ============================================== [![Version](https://img.sh",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/cloud-abap-rap",
+      "html_url": "https://github.com/SAP-samples/cloud-abap-rap",
+      "description": "This repository contains several examples how to develop with the ABAP RESTful Application Programming Model (RAP) in SAP BTP, ABAP environment.",
+      "stargazers_count": 321,
+      "forks_count": 82,
+      "open_issues_count": 20,
+      "language": null,
+      "topics": [
+        "abap",
+        "abap-environment",
+        "abap-restful",
+        "odata",
+        "rap",
+        "sample",
+        "sample-code",
+        "sap-btp",
+        "sap-btp-abap"
+      ],
+      "updated_at": "2026-09-18T20:51:18Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/cloud-abap-rap)](https://api.reuse.software/inf",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "BTP",
+        "CDS",
+        "Fiori",
+        "Fiori Elements",
+        "Go",
+        "RAG",
+        "RAP",
+        "S/4HANA",
+        "UI5"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/cloud-abap-rap)](https://api.reuse.software/inf",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abap-environment",
+          "abap-restful",
+          "odata",
+          "rap",
+          "sap-btp",
+          "sap-btp-abap"
+        ],
+        "matched_keywords": [
+          "ABAP:abap",
+          "ABAP:abap-restful",
+          "ABAP:rap",
+          "OData:odata",
+          "RAP:rap",
+          "RAP:restful application programming"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/btp-solution-diagrams",
+      "html_url": "https://github.com/SAP/btp-solution-diagrams",
+      "description": "SAP Business Technology Platform solution diagram repository, based on the official SAP BTP Solution diagram guideline. This has been designed in accordance with the SAP Fiori Horizon principles and color palette which provides a holistic and pleasing aesthetic and user experience.",
+      "stargazers_count": 317,
+      "forks_count": 465,
+      "open_issues_count": 8,
+      "language": "TypeScript",
+      "topics": [
+        "architecture",
+        "btp",
+        "btp-icons",
+        "icons",
+        "sap",
+        "sap-btp-solution-diagrams"
+      ],
+      "updated_at": "2026-09-20T15:33:05Z",
+      "primary_area": "Fiori",
+      "what_it_offers": "Tutorial for [![REUSE status](https://api.reuse.software/badge/github.com/SAP/btp-solution-diagrams)](https://api.reuse.software/info",
+      "skills": [
+        "Annotations",
+        "BTP",
+        "Fiori",
+        "Fiori Elements",
+        "Fiori Launchpad",
+        "RAG",
+        "Smart Controls"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP/btp-solution-diagrams)](https://api.reuse.software/info",
+      "evidence": {
+        "matched_topics": [
+          "sap",
+          "sap-btp-solution-diagrams"
+        ],
+        "matched_keywords": [
+          "Fiori:fiori"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/fundamental-ngx",
+      "html_url": "https://github.com/SAP/fundamental-ngx",
+      "description": "Fundamental Library for Angular is SAP Design System Angular component library",
+      "stargazers_count": 295,
+      "forks_count": 148,
+      "open_issues_count": 121,
+      "language": "TypeScript",
+      "topics": [
+        "angular",
+        "angular-components",
+        "design-system",
+        "fundamentals",
+        "ngx",
+        "open-source",
+        "sap",
+        "typescript",
+        "ui-components",
+        "ui5",
+        "ui5-webcomponents",
+        "web-components"
+      ],
+      "updated_at": "2026-09-22T17:55:39Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Automation Scripts for [![REUSE status](https://api.reuse.software/badge/github.com/SAP/fundamental-ngx)](https://api.reuse.software/info/githu",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "BTP",
+        "CDS",
+        "Fiori",
+        "Migration",
+        "Node.js",
+        "RAP",
+        "TypeScript",
+        "UI5"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP/fundamental-ngx)](https://api.reuse.software/info/githu",
+      "evidence": {
+        "matched_topics": [
+          "sap",
+          "ui5",
+          "ui5-webcomponents"
+        ],
+        "matched_keywords": [
+          "UI5:ui5"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/InfraBox",
+      "html_url": "https://github.com/SAP/InfraBox",
+      "description": "InfraBox is a cloud native continuous integration system",
+      "stargazers_count": 282,
+      "forks_count": 66,
+      "open_issues_count": 2,
+      "language": "Python",
+      "topics": [
+        "ci",
+        "docker",
+        "docker-compose",
+        "kubernetes",
+        "open-source"
+      ],
+      "updated_at": "2026-09-17T06:53:53Z",
+      "primary_area": "Workflow",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/SAP/InfraBox)](https://api.reuse.software/info/github.com/S",
+      "skills": [
+        "Business Workflow",
+        "Docker",
+        "Go",
+        "Kubernetes",
+        "SAP Workflow",
+        "WF-BATCH"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP/InfraBox)](https://api.reuse.software/info/github.com/S",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/abap-platform-fiori-feature-showcase",
+      "html_url": "https://github.com/SAP-samples/abap-platform-fiori-feature-showcase",
+      "description": "Feature showcase that demonstrates and documents how to implement annotation-driven SAP Fiori Elements UI features for oData V4, using the ABAP RESTful Application Programming Model (RAP).",
+      "stargazers_count": 279,
+      "forks_count": 62,
+      "open_issues_count": 8,
+      "language": null,
+      "topics": [
+        "abap",
+        "abap-environment",
+        "abap-restful",
+        "fiori-elements",
+        "open-source",
+        "rap",
+        "sample",
+        "sample-code",
+        "sap-cloud-platform"
+      ],
+      "updated_at": "2026-09-18T01:48:43Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/sap-samples/abap-platform-fiori-feature-showcase)](https://",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "BTP",
+        "CAP",
+        "CDS",
+        "Fiori",
+        "Fiori Elements",
+        "OData V4",
+        "RAP",
+        "S/4HANA"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/sap-samples/abap-platform-fiori-feature-showcase)](https://",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abap-environment",
+          "abap-restful",
+          "fiori-elements",
+          "rap",
+          "sap-cloud-platform"
+        ],
+        "matched_keywords": [
+          "ABAP:abap",
+          "ABAP:abap-restful",
+          "ABAP:rap",
+          "OData:odata",
+          "OData:odata v4",
+          "Fiori:fiori",
+          "Fiori:fiori elements",
+          "RAP:rap",
+          "RAP:restful application programming"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/fundamental",
+      "html_url": "https://github.com/SAP/fundamental",
+      "description": "Fundamental Library - SAP Design System Component Library",
+      "stargazers_count": 271,
+      "forks_count": 56,
+      "open_issues_count": 0,
+      "language": "SCSS",
+      "topics": [
+        "css",
+        "html5",
+        "open-source"
+      ],
+      "updated_at": "2026-07-06T09:52:22Z",
+      "primary_area": "Fiori",
+      "what_it_offers": "Library for **SAP Fundamentals is deprecated. [Fundamental Styles](https://sap.github.io/fundamental-styles) is its successor. If yo",
+      "skills": [
+        "Annotations",
+        "Fiori",
+        "Fiori Elements",
+        "Fiori Launchpad",
+        "Go",
+        "Smart Controls"
+      ],
+      "purpose": "Use this to **SAP Fundamentals is deprecated. [Fundamental Styles](https://sap.github.io/fundamental-styles) is its successor. If yo",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/python-pyodata",
+      "html_url": "https://github.com/SAP/python-pyodata",
+      "description": "Enterprise-ready Python OData client",
+      "stargazers_count": 268,
+      "forks_count": 100,
+      "open_issues_count": 23,
+      "language": "Python",
+      "topics": [
+        "odata",
+        "open-source",
+        "python"
+      ],
+      "updated_at": "2026-09-22T18:01:42Z",
+      "primary_area": "OData",
+      "what_it_offers": "Library for ![Build Status](https://github.com/SAP/python-pyodata/actions/workflows/python-tests-compatibility.yml/badge.svg) ![Lint",
+      "skills": [
+        "Gateway",
+        "Go",
+        "OData V2",
+        "OData V4",
+        "Python",
+        "RAP",
+        "SADL"
+      ],
+      "purpose": "Use this to ![Build Status](https://github.com/SAP/python-pyodata/actions/workflows/python-tests-compatibility.yml/badge.svg) ![Lint",
+      "evidence": {
+        "matched_topics": [
+          "odata"
+        ],
+        "matched_keywords": [
+          "OData:odata"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap odata in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/cap-sflight",
+      "html_url": "https://github.com/SAP-samples/cap-sflight",
+      "description": "Using SAP Cloud Application Programming Model and SAP Fiori elements to build a simple travel management app, both with Node.js and Java.",
+      "stargazers_count": 254,
+      "forks_count": 189,
+      "open_issues_count": 59,
+      "language": "CAP CDS",
+      "topics": [
+        "sample",
+        "sample-code",
+        "sap-cap",
+        "sap-fiori",
+        "sap-fiori-elements"
+      ],
+      "updated_at": "2026-09-17T20:39:20Z",
+      "primary_area": "CAP",
+      "what_it_offers": "Starter Template for This is a sample app for the travel reference scenario, built with the [SAP Cloud Application Programming Model (CAP)](h",
+      "skills": [
+        "ABAP",
+        "BTP",
+        "CAP",
+        "CDS",
+        "Cloud Foundry",
+        "Fiori",
+        "Fiori Elements",
+        "Go",
+        "Java",
+        "Kyma",
+        "MTA",
+        "Node.js"
+      ],
+      "purpose": "Use this to This is a sample app for the travel reference scenario, built with the [SAP Cloud Application Programming Model (CAP)](h",
+      "evidence": {
+        "matched_topics": [
+          "sap-cap",
+          "sap-fiori",
+          "sap-fiori-elements"
+        ],
+        "matched_keywords": [
+          "Fiori:fiori",
+          "Fiori:fiori elements",
+          "CAP:cap",
+          "CAP:cloud application programming model"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/fundamental-styles",
+      "html_url": "https://github.com/SAP/fundamental-styles",
+      "description": "SAP Design System component library for building SAP user interfaces with any web technology.",
+      "stargazers_count": 235,
+      "forks_count": 71,
+      "open_issues_count": 18,
+      "language": "HTML",
+      "topics": [
+        "open-source"
+      ],
+      "updated_at": "2026-09-17T12:18:17Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Library for <a href=\"https://badge.fury.io/js/fundamental-styles\"><img src=\"https://badge.fury.io/js/fundamental-styles.svg\" alt=\"NP",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "CDS",
+        "Fiori",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Node.js",
+        "RAP",
+        "TypeScript"
+      ],
+      "purpose": "Use this to <a href=\"https://badge.fury.io/js/fundamental-styles\"><img src=\"https://badge.fury.io/js/fundamental-styles.svg\" alt=\"NP",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/e-mobility-charging-stations-simulator",
+      "html_url": "https://github.com/SAP/e-mobility-charging-stations-simulator",
+      "description": "OCPP-J charging stations simulator",
+      "stargazers_count": 225,
+      "forks_count": 97,
+      "open_issues_count": 16,
+      "language": "TypeScript",
+      "topics": [
+        "charging-station",
+        "load-testing",
+        "ocpp",
+        "ocpp-j",
+        "ocpp16",
+        "ocpp20"
+      ],
+      "updated_at": "2026-09-22T12:48:23Z",
+      "primary_area": "S4 Conversion",
+      "what_it_offers": "Project for <!-- markdownlint-disable-file MD033 MD024 --> <div align=\"center\"> </div> ## Installation  ### Prerequisites  Install t",
+      "skills": [
+        "ATC",
+        "CAP",
+        "Code Inspector",
+        "Docker",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Migration",
+        "Node.js",
+        "RAG",
+        "RAP",
+        "S/4HANA"
+      ],
+      "purpose": "Use this to <!-- markdownlint-disable-file MD033 MD024 --> <div align=\"center\"> </div> ## Installation  ### Prerequisites  Install t",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/cloud-sdk-js",
+      "html_url": "https://github.com/SAP/cloud-sdk-js",
+      "description": "Use the SAP Cloud SDK for JavaScript / TypeScript to reduce development effort when building applications on SAP Business Technology Platform that communicate with SAP solutions and services such as SAP S/4HANA Cloud, SAP SuccessFactors, and many others. ",
+      "stargazers_count": 219,
+      "forks_count": 74,
+      "open_issues_count": 10,
+      "language": "TypeScript",
+      "topics": [
+        "odata",
+        "openapi",
+        "sap-btp",
+        "sap-business-technology-platform",
+        "sap-cloud-platform",
+        "sap-cloud-sdk"
+      ],
+      "updated_at": "2026-09-23T09:01:42Z",
+      "primary_area": "OData",
+      "what_it_offers": "Sdk for <a href=\"https://sap.github.io/cloud-sdk/docs/js/overview\"><img src=\"https://help.sap.com/doc/2324e9c3b28748a4ae2ad08166",
+      "skills": [
+        "BTP",
+        "Cloud Foundry",
+        "Gateway",
+        "Go",
+        "Java",
+        "JavaScript",
+        "OData V2",
+        "OData V4",
+        "RAG",
+        "S/4HANA",
+        "SADL",
+        "TypeScript"
+      ],
+      "purpose": "Use this to <a href=\"https://sap.github.io/cloud-sdk/docs/js/overview\"><img src=\"https://help.sap.com/doc/2324e9c3b28748a4ae2ad08166",
+      "evidence": {
+        "matched_topics": [
+          "odata",
+          "sap-btp",
+          "sap-business-technology-platform",
+          "sap-cloud-platform",
+          "sap-cloud-sdk"
+        ],
+        "matched_keywords": [
+          "OData:odata",
+          "S4 Conversion:s/4hana"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "topic:odata sap fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/abap-oo-basics",
+      "html_url": "https://github.com/SAP-samples/abap-oo-basics",
+      "description": "In support of the YouTube video series on ABAP Object Oriented basics, this repository contains the ABAP source code samples which are used in the video series. ",
+      "stargazers_count": 213,
+      "forks_count": 64,
+      "open_issues_count": 0,
+      "language": "ABAP",
+      "topics": [
+        "abap",
+        "abap-oo",
+        "object-oriented",
+        "owner-jung-thomas",
+        "sample",
+        "sample-code"
+      ],
+      "updated_at": "2026-09-12T18:03:20Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-oo-basics)](https://api.reuse.software/inf",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "BTP",
+        "CDS",
+        "Go",
+        "RAP"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-oo-basics)](https://api.reuse.software/inf",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abap-oo"
+        ],
+        "matched_keywords": [
+          "ABAP:abap"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/odata-vocabularies",
+      "html_url": "https://github.com/SAP/odata-vocabularies",
+      "description": "SAP Vocabularies for semantic markup of structured data published via OData (www.odata.org) services.",
+      "stargazers_count": 203,
+      "forks_count": 67,
+      "open_issues_count": 43,
+      "language": "JavaScript",
+      "topics": [],
+      "updated_at": "2026-09-23T08:02:11Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Project for SAP Vocabularies for semantic markup of structured data published via [OData](https://www.odata.org) services. This repo",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "CAP",
+        "CDS",
+        "Go",
+        "Node.js",
+        "RAP",
+        "UI5"
+      ],
+      "purpose": "Use this to SAP Vocabularies for semantic markup of structured data published via [OData](https://www.odata.org) services. This repo",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [
+          "OData:odata"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap odata in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP-samples/kyma-runtime-samples",
+      "html_url": "https://github.com/SAP-samples/kyma-runtime-samples",
+      "description": "This project contains sample applications for building extensions and microservices on SAP BTP, Kyma runtime.",
+      "stargazers_count": 197,
+      "forks_count": 93,
+      "open_issues_count": 81,
+      "language": "JavaScript",
+      "topics": [
+        "cloud-native",
+        "extension-factory",
+        "kubernetes",
+        "kyma",
+        "sample",
+        "sample-code",
+        "sap-btp",
+        "sap-cloud-platform"
+      ],
+      "updated_at": "2026-09-17T09:10:26Z",
+      "primary_area": "UI5",
+      "what_it_offers": "Sample App for [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/kyma-runtime-samples)](https://api.reuse.softwa",
+      "skills": [
+        "BTP",
+        "CAP",
+        "CI/CD",
+        "Cloud Foundry",
+        "Go",
+        "Java",
+        "Kubernetes",
+        "Kyma",
+        "MVC",
+        "OpenUI5",
+        "Python",
+        "RAG"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/kyma-runtime-samples)](https://api.reuse.softwa",
+      "evidence": {
+        "matched_topics": [
+          "sap-btp",
+          "sap-cloud-platform"
+        ],
+        "matched_keywords": [],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "abapGit/abapGit",
+      "html_url": "https://github.com/abapGit/abapGit",
+      "description": "Git client for ABAP",
+      "stargazers_count": 1943,
+      "forks_count": 627,
+      "open_issues_count": 85,
+      "language": "ABAP",
+      "topics": [
+        "abap",
+        "abapgit",
+        "git-client",
+        "hacktoberfest",
+        "platform",
+        "sap",
+        "sap-gui"
+      ],
+      "updated_at": "2026-09-23T05:16:20Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Project for ![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg) ![Test](https://github.com/abapGit/abapGit/w",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "CDS",
+        "Go",
+        "Java",
+        "RAP"
+      ],
+      "purpose": "Use this to ![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg) ![Test](https://github.com/abapGit/abapGit/w",
+      "evidence": {
+        "matched_topics": [
+          "abap",
+          "abapgit",
+          "sap",
+          "sap-gui"
+        ],
+        "matched_keywords": [
+          "ABAP:abap",
+          "ABAP:abapgit"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "topic:abap sap fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "UI5/webcomponents",
+      "html_url": "https://github.com/UI5/webcomponents",
+      "description": "UI5 Web Components - the enterprise-flavored sugar on top of native APIs! Build SAP Fiori user interfaces with the technology of your choice.",
+      "stargazers_count": 1780,
+      "forks_count": 285,
+      "open_issues_count": 218,
+      "language": "TypeScript",
+      "topics": [
+        "open-source",
+        "ui5",
+        "ui5-webcomponents",
+        "web-component",
+        "webcomponent"
+      ],
+      "updated_at": "2026-09-23T11:47:28Z",
+      "primary_area": "UI5",
+      "what_it_offers": "Library for [![CI](https://github.com/UI5/webcomponents/actions/workflows/test.yaml/badge.svg)](https://github.com/UI5/webcomponents",
+      "skills": [
+        "CAP",
+        "Fiori",
+        "Go",
+        "Java",
+        "JavaScript",
+        "MVC",
+        "Node.js",
+        "OpenUI5",
+        "RAP",
+        "TypeScript",
+        "UI5",
+        "UI5 Tooling"
+      ],
+      "purpose": "Use this to [![CI](https://github.com/UI5/webcomponents/actions/workflows/test.yaml/badge.svg)](https://github.com/UI5/webcomponents",
+      "evidence": {
+        "matched_topics": [
+          "ui5",
+          "ui5-webcomponents"
+        ],
+        "matched_keywords": [
+          "Fiori:fiori",
+          "UI5:ui5"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap ui5 OR sapui5 OR openui5 in:name,description fork:false sort:stars"
+        ]
+      }
+    },
+    {
+      "full_name": "SAP/abap-atc-cr-cv-s4hc",
+      "html_url": "https://github.com/SAP/abap-atc-cr-cv-s4hc",
+      "description": "ABAP test cockpit cloud readiness check variants for SAP S/4HANA Cloud",
+      "stargazers_count": 165,
+      "forks_count": 36,
+      "open_issues_count": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "updated_at": "2026-09-18T13:11:16Z",
+      "primary_area": "ABAP",
+      "what_it_offers": "Project for [![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-atc-cr-cv-s4hc)](https://api.reuse.software/info/g",
+      "skills": [
+        "ABAP",
+        "ABAP Git",
+        "ADT",
+        "BTP",
+        "CAP",
+        "CDS",
+        "Go",
+        "RAP",
+        "S/4HANA",
+        "UI5"
+      ],
+      "purpose": "Use this to [![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-atc-cr-cv-s4hc)](https://api.reuse.software/info/g",
+      "evidence": {
+        "matched_topics": [],
+        "matched_keywords": [
+          "ABAP:abap",
+          "S4 Conversion:s/4hana"
+        ],
+        "readme_snippet_used": true,
+        "matched_queries": [
+          "sap abap in:name,description fork:false sort:stars"
+        ]
+      }
+    }
+  ]
+}

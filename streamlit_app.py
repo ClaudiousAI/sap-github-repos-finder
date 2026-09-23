@@ -32,7 +32,7 @@ st.set_page_config(
 
 
 # Constants
-JSON_PATH = Path(__file__).parent / "sap_top25.json"
+JSON_PATH = Path(__file__).parent / "sap_top30.json"
 SAP_AREAS = [
     "ABAP", "OData", "Fiori", "UI5", "Workflow",
     "RAP", "CAP", "S4 Conversion", "GenAI", "Automation", "Other"
@@ -41,9 +41,9 @@ SAP_AREAS = [
 
 @st.cache_data(ttl=3600, show_spinner="Loading repository data...")
 def load_repos():
-    """Load and parse sap_top25.json with caching."""
+    """Load and parse sap_top30.json with caching."""
     if not JSON_PATH.exists():
-        return None, "File not found: sap_top25.json. Run fetch script or wait for weekly Action."
+        return None, "File not found: sap_top30.json. Run fetch script or wait for weekly Action."
 
     try:
         with open(JSON_PATH, "r", encoding="utf-8") as f:

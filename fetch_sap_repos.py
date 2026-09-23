@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-fetch_sap_repos.py - Fetch top 25 SAP-related GitHub repositories
+fetch_sap_repos.py - Fetch top 30 SAP-related GitHub repositories
 
 Usage:
     export GITHUB_TOKEN="your_github_token"
@@ -8,7 +8,7 @@ Usage:
 
 Outputs:
     - Human-readable table to stdout
-    - JSON file: sap_top25.json
+    - JSON file: sap_top30.json
 
 Requires:
     - Python 3.8+
@@ -42,6 +42,12 @@ SEARCH_QUERIES = [
     # ABAP
     "sap abap in:name,description fork:false sort:stars",
     "topic:abap sap fork:false sort:stars",
+    # ABAP - additional topics requested
+    "abap debug sap in:name,description fork:false sort:stars",
+    "abap on cloud sap in:name,description fork:false sort:stars",
+    "clean core abap sap in:name,description fork:false sort:stars",
+    "abap architecture sap in:name,description fork:false sort:stars",
+    "abap mcp server sap in:name,description fork:false sort:stars",
     # OData
     "sap odata in:name,description fork:false sort:stars",
     "topic:odata sap fork:false sort:stars",
@@ -84,7 +90,7 @@ SAP_OFFICIAL_ORGS = {"SAP", "SAP-samples", "SAP-samples-cloud", "SAP-samples-s4h
 
 PER_PAGE = 100
 MIN_CANDIDATES = 100
-TOP_N = 25
+TOP_N = 30
 README_CACHE_DIR = ".readme_cache"
 
 # ============================================================================
@@ -657,7 +663,7 @@ def print_table(repos: List[Repository]):
 
     print(f"\nTotal: {len(repos)} repositories")
 
-def export_json(repos: List[Repository], filename: str = "sap_top25.json"):
+def export_json(repos: List[Repository], filename: str = "sap_top30.json"):
     """Export repositories to JSON file with generated_at timestamp."""
     data = []
     for repo in repos:
@@ -708,20 +714,20 @@ def main():
     relevant = [r for r in processed if is_relevant(repo=r)]
     logger.info(f"Relevant repos: {len(relevant)}")
 
-    # Rank and select top 25
+    # Rank and select top 30
     ranked = rank_repositories(relevant)
-    top25 = ranked[:TOP_N]
+    top30 = ranked[:TOP_N]
 
     # Output - export JSON first (before table print which may have encoding issues)
-    export_json(top25)
+    export_json(top30)
     try:
-        print_table(top25)
+        print_table(top30)
     except UnicodeEncodeError:
         logger.warning("Console encoding issue - skipping table print (JSON saved successfully)")
 
     # Summary stats
     area_counts = {}
-    for r in top25:
+    for r in top30:
         area_counts[r.primary_area] = area_counts.get(r.primary_area, 0) + 1
     logger.info(f"Area distribution: {area_counts}")
     logger.info("Done!")
